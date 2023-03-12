@@ -1,0 +1,134 @@
+#title{
+    background-color: #E5D1FA;
+
+}
+h1{
+    font-family: 'Acme', sans-serif;
+    font-size: 6rem;
+    line-height: 1.75;
+    text-align: center;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: bold;
+}
+h6{
+    text-align: center;
+    font-family: 'Sacramento', sans-serif;
+    font-size: 2rem;
+
+}
+p{
+    color: #8f8f8f;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#cindrella{
+    margin: auto;
+}
+#heelsimage{
+    margin: 50px 50px;
+    width: 70%;
+    /* border-radius: 50%; */
+}
+hr{
+    border: dotted 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: auto;
+}
+.container-fluid{
+    /* padding: 3%; */
+    padding: 0;
+
+}
+.navbar{
+    padding: 2%;
+    margin: 0 ;
+    
+}
+
+.button{
+    margin: 0 100px 0 150px;
+    
+}
+.btn{
+    margin: 10px;
+}
+.intro{
+    padding: 100px 0 50px;
+}
+.nav-link{
+    margin-right: 10px;
+}
+/* features section */
+#features{
+    padding: 7% 5%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    /* background-color: #E5D1FA; */
+}
+.icon{
+    color:  #865DFF;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #E384FF;
+}
+
+#testimonials{
+text-align: center;
+background-color: #E5D1FA;
+}
+#press{
+    background-color: #E5D1FA;
+    text-align: center;  
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.pricing-col{
+    
+    padding: 30px 0 30px 150px;
+}
+.hot-selling{
+    text-align: center;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+#pricing{
+    margin-bottom: 30px;
+}
+.bottom-container{
+    /* background-color: #A4907C; */
+    text-align: center;
+    background-color: #EA8FEA;
+    color: #000;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    
+}
+.foot{
+    color: #3c2a21;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px 60px;
+    text-decoration: none;
+}
