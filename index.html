@@ -1,250 +1,264 @@
 <!DOCTYPE html>
-<html>
-
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Fluff Footware</title>
-
-  <!-- css style sheet of bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="css/styles.css">
-
-  <!-- google font stylesheet -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluff Footware</title>
 
 
-<!-- Google Font  -->
+    <!-- bootstrap css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/newstyle.css">
+
+    <!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+<!-- google font  -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Acme&family=Montserrat&family=Sacramento&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 
-<!-- bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 <!-- Font awesome -->
 <script src="https://kit.fontawesome.com/3cdb5b1613.js" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/3cdb5b1613.js" crossorigin="anonymous"></script>
+
+
+
+
+
 </head>
-
-
-
-
-
-
 <body>
-
   <section id="title">
-    <div class="container-fluid">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg " style="background-color: #EA8FEA;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Fluff Footware<sup>©</sup></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Item Code - Art 350</a></li>
+                  <li><a class="dropdown-item" href="#">Item Code - Art 300</a></li>
+                  <li><a class="dropdown-item" href="#">Item Code - Art 200</a></li>
+                  <li><a class="dropdown-item" href="#">Item Code - Art 105</a></li>
+                  <li><a class="dropdown-item" href="#">Item Code - Art 101</a></li>
+                  <li><a class="dropdown-item" href="#">Item Code - Art 100</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link disabled">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: auto;">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-    <!-- Nav Bar -->
-    <nav class="navbar  navbar-expand-lg fixed-top" style="background-color: #EA8FEA;" >
-      <a class="navbar-brand" href="">Fluff Footware<sup>©</sup></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-     <ul class="navbar-nav ms-auto">
-         <li class="nav-item">
-            <a class="nav-link" href="">Home</a> 
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="">Product</a> 
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="">About us</a> 
-         </li>
-         
-     </ul>
-     </div>
- </nav>
-
-
-
-    <!-- Title -->
-  <div class="row intro">
-    <div class="col col-lg-6" id="cindrella">
-      <h2 style="font-family: 'Sacramento', cursive; margin-left: 30px;">Hello Cinderella!</h2>
-      <h1>Missing Something?</h1>
-      <!-- <h6>Feel your soul</h6> -->
-      <div class="button">
-      <button class="btn btn-outline-primary btn-lg" type="button"> <i class="fa-brands fa-facebook"></i> Facebook </button>
-      <button class="btn btn-outline-success btn-lg" type="button"> <i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
-       </div>
-    </div>
-    <div class="col col-lg-6">
-      <img src="images/high-heels.png" alt="heels-mockup" style="transform: scaleX(-1)" id="heelsimage">
-    </div>
-  </div>
-</div>
-  <hr>
-  </section>
+      <!-- Introduction -->
  
+    <div class="intro">
+    <h2 class="display-2">Hello Cinderella!</h2>
+    <h1 class="display-1">Missing Something?</h1>
+      <!-- <h6>Feel your soul</h6> -->
+    <div class="button">
+      <button class="btn btn-outline-primary btn-md" type="button"> <i class="fa-brands fa-facebook"></i> Facebook </button>
+      <button class="btn btn-outline-success btn-md" type="button"> <i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+    </div>
+    </div>
+    <hr>
+  </section>
+   
+     <!-- selling -->
+   
+     <section id="pricing">
+    <h3 class="hot-selling display-3">Hot selling</h2>
+    <p style="text-align: center;">Simple and affordable price plans for you.</p>
 
-
+    <div class="row sell row-cols-2 row-cols-sm-2 row-cols-md-4 g-4" style="margin-right: 0px; margin-left: 0px;" >
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/Pink shoe.JPG" style ="width: 75%; margin: auto;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Item Code - Art 350 </h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Sizes : 03 - 09</li>
+              <li class="list-group-item">Cash on Delivery.</li>
+              <li class="list-group-item"><b>Rs. 2,250 0nly</b> </li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-sm btn-outline-primary">Buy Me</a>
+            <a href="#" class="btn btn-sm btn-outline-success">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/Pink shoe.JPG" style ="width: 75%; margin: auto;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Item Code - Art 350 </h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Sizes : 03 - 09</li>
+              <li class="list-group-item">Cash on Delivery.</li>
+              <li class="list-group-item"><b>Rs. 2,250 0nly</b> </li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-sm btn-outline-primary">Buy Me</a>
+            <a href="#" class="btn btn-sm btn-outline-success">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/Pink shoe.JPG" style ="width: 75%; margin: auto;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Item Code - Art 350 </h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Sizes : 03 - 09</li>
+              <li class="list-group-item">Cash on Delivery.</li>
+              <li class="list-group-item"><b>Rs. 2,250 0nly</b> </li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-sm btn-outline-primary">Buy Me</a>
+            <a href="#" class="btn btn-sm btn-outline-success">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/Pink shoe.JPG" style ="width: 75%; margin: auto;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Item Code - Art 350 </h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Sizes : 03 - 09</li>
+              <li class="list-group-item">Cash on Delivery.</li>
+              <li class="list-group-item"><b>Rs. 2,250 0nly</b> </li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-sm btn-outline-primary">Buy Me</a>
+            <a href="#" class="btn btn-sm btn-outline-success">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/Pink shoe.JPG" style ="width: 75%; margin: auto;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Item Code - Art 350 </h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Sizes : 03 - 09</li>
+              <li class="list-group-item">Cash on Delivery.</li>
+              <li class="list-group-item"><b>Rs. 2,250 0nly</b> </li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-sm btn-outline-primary">Buy Me</a>
+            <a href="#" class="btn btn-sm btn-outline-success">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/Pink shoe.JPG" style ="width: 75%; margin: auto;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Item Code - Art 350 </h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Sizes : 03 - 09</li>
+              <li class="list-group-item">Cash on Delivery.</li>
+              <li class="list-group-item"><b>Rs. 2,250 0nly</b> </li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-sm btn-outline-primary">Buy Me</a>
+            <a href="#" class="btn btn-sm btn-outline-success">More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+<hr>
   <!-- Features -->
   <section id="features">
-<div class="row "> 
-  
-    <div class="feature-box col-lg-4">
-    <i class="icon fa-solid fa-face-smile fa-5x"></i>
-    <h3>Best Quality.</h3>
-    <p>So comfortable to wear, even your dont feel the weight.</p>
-  </div>
-  <div class="feature-box col-lg-4">
-   
-    <i class="icon fa-solid fa-truck-fast fa-5x"></i>
-    <h3>Fast Delivery</h3>
-    <p>You will receive it 2 to 3 days after ordering.</p>
-  </div>
-  <div class="feature-box col-lg-4">
-    <i class="icon fa-solid fa-thumbs-up fa-5x"></i>
-    <h3>Cash on Delivery.</h3>
-    <p>Find your best pair or receive your money back.</p>
-  </div>
-</div>
-  </section>
-  <hr>
-
+    <div class="row " style="margin: auto;"> 
+      
+        <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-face-smile fa-5x"></i>
+        <h3 class="display-3">Best Quality.</h3>
+        <p class="lead">So comfortable to wear, even your dont feel the weight.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+       
+        <i class="icon fa-solid fa-truck-fast fa-5x"></i>
+        <h3 class="display-3">Fast Delivery</h3>
+        <p class="lead">You will receive it 2 to 3 days after ordering.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-thumbs-up fa-5x"></i>
+        <h3 class="display-3">Cash on Delivery.</h3>
+        <p class="lead">Find your best pair or receive your money back.</p>
+      </div>
+    </div>
+      </section>
+      <hr>
 
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
       <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <h5 class="display-3">“The average woman falls in love seven times a year. Only six are with shoes.”</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          <img src="images/Kenneth_Cole_Fragrances.jpg" class="d-block w-10" alt="..." style="width: 20%;margin: 0 auto;">
+          <p>Kenneth Cole - Designer</p>
+        </div>
         
-        <div class="carousel-item active">
-          <h2>"Walking in comfort and style is what we do best, your satisfaction is our top priority."</h2>
-          <img src="images/GSP.jpeg" style="border-radius: 50%; width: 80px; margin: 20px;" alt="dog-profile">
-          <em>GSP Footware, Colombo</em>
+        <div class="carousel-item " data-bs-interval="10000">
+          <h5 class="display-3">"Walking in comfort and style is what we do best, your satisfaction is our top priority."</h5>
+          <img src="images/GSP.jpeg" class="d-block w-10" alt="..."style="width: 20%;margin: 0 auto;">
+          <p>GSP Footware, Colombo</p>
         </div>
-
-        <div class="carousel-item">
-          <h2 class="testimonial-text">“The average woman falls in love seven times a year. Only six are with shoes.” </h2>
-          <img class="testimonial-image" style="border-radius: 50%; width: 80px; margin: 20px;" src="images/Kenneth_Cole_Fragrances.jpg" alt="lady-profile"  >
-          <em>Kenneth Cole - Designer</em>
         </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </button>
-    </div>
-
-  
-
-  </section>
-
-
-  <!-- Press -->
-
-  <section id="press">
-    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-   
-  </section>
-  <hr>
-
-  <!-- Pricing -->
-
-  <section id="pricing">
-
-    <h2 class="hot-selling">Hot selling</h2>
-    <p style="text-align: center;">Simple and affordable price plans for you.</p>
-
-    <div class="row">
-      <div class="pricing-col col-lg-4 col-md-6" >
-        <div class="card" style="width: 18rem;">
-          <img  class="pink-shoe" src="images/Pink shoe.JPG" class="card-img-top" alt="pink-shoe">
-          <div class="card-body">
-            <h5 class="card-title"style="font-size: 1.rem;">Natural Pink - 1.5 Inch Heels</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Sizes : 03 - 09</li>
-              <li class="list-group-item">Cash on Delivery.</li>
-              <li class="list-group-item"><b>Rs. 2,250 0nly</b> </li>
-            </ul>
-            <a href="#" class="btn btn-outline-primary">Buy Me</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="pricing-col col-lg-4 col-md-6" >
-        <div class="card" style="width: 18rem;">
-          <img  class="pink-shoe" src="images/grey shoe .JPG" class="card-img-top" alt="pink-shoe">
-          <div class="card-body">
-            <h5 class="card-title" style="font-size: 1.5rem;">White - 1.5 Inch Heels</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Sizes : 03 - 09</li>
-              <li class="list-group-item">Cash on Delivery.</li>
-              <li class="list-group-item"><b>Rs. 2,250 0nly</b> </li>
-            </ul>
-            <a href="#" class="btn btn-outline-primary">Buy Me</a>
-          </div>
-        </div>
-      </div>
       
-      <div class="pricing-col col-lg-4">
-      <div class="card" style="width: 18rem;">
-        <img  class="pink-shoe" src="images/Peach shoe.JPG" class="card-img-top" alt="pink-shoe">
-        <div class="card-body">
-          <h5 class="card-title" style="font-size: 1.5rem;" >Beige - 1.5 Inch Heels</h5>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Sizes : 03 - 09</li>
-            <li class="list-group-item">Cash on Delivery.</li>
-            <li class="list-group-item"><b>Rs. 2,250 0nly</b> </li>
-          </ul>
-          <a href="#" class="btn btn-outline-primary">Buy Me</a>
-        </div>
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    
-      <!-- <div class="card" style="width: 18rem;">
-        <img  class="pink-shoe" src="images/Pink shoe.JPG" class="card-img-top" alt="pink-shoe">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Buy Me</a>
-        </div>
-      </div>
-    </div> -->
-   
-
-
-    <!-- <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button> -->
-
-  </section>
+</section>
   
+    <hr>
 
-  <!-- Call to Action -->
+  <!-- footer -->
   <div class="bottom-container">
         
     <br>
@@ -254,24 +268,8 @@
     <p class="tag" style="color: #000; margin-bottom: 0; margin-top: 10px;">© 2023 Fluff Footware.</p>
   </div>
 
-  <!-- <section id="cta">
-
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
-  </section> -->
-
-
-  <!-- Footer -->
-
-  <!-- <footer id="footer">
-
-    <p>© Copyright TinDog</p>
-
-  </footer>
 
 
 </body>
+</html>
 
-</html> -->
