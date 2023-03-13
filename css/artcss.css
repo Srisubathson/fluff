@@ -1,0 +1,20 @@
+
+.bottom-container{
+    /* background-color: #A4907C; */
+    text-align: center;
+    background-color: #EA8FEA;
+    color: #000;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    
+}
+.foot{
+    color: #3c2a21;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px 60px;
+    text-decoration: none;
+}
+
+#price{
+    margin-bottom: 30px;
+}
