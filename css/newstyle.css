@@ -1,0 +1,101 @@
+#title{
+    background-color: #E5D1FA;
+
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif; 
+}
+.intro{
+    text-align: center;
+    width: auto;
+    padding: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+h2{
+    font-family: 'Sacramento', cursive; 
+    margin-left: 30px;
+}
+h3{
+    font-size: 0.5 rem;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.btn{
+    margin: 10px;
+}
+.hot-selling{
+    text-align: center;
+    width: auto;
+    padding: auto;
+    margin-top: 20px;
+}
+#pricing{
+    text-align: center;
+    width: auto;
+    padding: auto;
+    font-size: small;
+}
+#features{
+    padding:50px 0;
+    background-color: #E5D1FA;
+    
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    background-color: #E5D1FA;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif; 
+}
+.icon{
+    color:  #865DFF;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #E384FF;
+}
+.carousel-inner{
+    font-family: 'Ubuntu', sans-serif; 
+    text-align: center;
+
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.bottom-container{
+    /* background-color: #A4907C; */
+    text-align: center;
+    background-color: #EA8FEA;
+    color: #000;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    
+}
+.foot{
+    color: #3c2a21;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px 60px;
+    text-decoration: none;
+}
+hr{
+    border: dotted 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: auto;
+}
+.sell{
+    margin-bottom: 20px;
+}
+#testimonials{
+    margin: 50px 0;
+    font-size: small;
+}
