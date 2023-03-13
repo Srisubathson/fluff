@@ -1,5 +1,6 @@
 #title{
     background-color: #E5D1FA;
+    padding-top: 40px;
 
 }
 .navbar-brand{
@@ -17,6 +18,7 @@ h1{
     padding: auto;
     margin-bottom: 50px;
     margin-top: 50px;
+    background-color: #E5D1FA
 }
 h2{
     font-family: 'Sacramento', cursive; 
